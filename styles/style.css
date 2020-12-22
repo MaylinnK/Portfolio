@@ -1,0 +1,141 @@
+body {
+  background-color: #161616;
+  font-family: Tahoma, arial;
+  margin: 0px;
+}
+
+nav {
+  position: fixed;
+  background-color: #161616;
+  width: 100%;
+  margin-top: -150px;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+}
+
+ul a {
+  margin-right: 4vw;
+  text-decoration: none;
+  color: lightgray;
+  font-size: 150%;
+}
+
+ul a:hover {
+  color: #4BB0E4;
+}
+
+ul li:nth-of-type(1) {
+  margin-right: auto;
+}
+
+ul li:nth-of-type(1) img {
+  width: 40%
+}
+
+section:nth-of-type(1) img {
+  max-width: 25%;
+  min-width: 10%;
+  height: auto;
+  border-radius: 10000px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+  margin-top: 150px;
+}
+
+.introductie {
+  width: 40%;
+  font-size: 25px;
+  /* line-height: 35px; */
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  section:nth-of-type(1) {
+    flex-direction: column;
+  }
+
+  .introductie {
+    width: 60%;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+
+  ul li {
+    margin-right: 20px;;
+  }
+}
+
+hr {
+  background-color: #4BB0E4;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 90vw;
+  height: 4px;
+  border: none
+}
+/* -----------------------WORKS----------------------- */
+
+section:nth-of-type(2) article{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section:nth-of-type(2) h2 {
+  align-self: center;
+  font-size: 170%;
+  color: lightgray;
+  margin-bottom: 50px;
+}
+
+section:nth-of-type(2) article>article {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+section:nth-of-type(2) img {
+  width: 100%;
+}
+
+section:nth-of-type(2) img:hover {
+  opacity: 50%;
+}
+
+figcaption {
+  color: lightgray;
+  text-align: center;
+  font-size: 140%;
+  margin-bottom: 100px;
+}
+
+/* -----------------------Footer----------------------- */
+
+footer {
+  background-color: #4BB0E4;
+}
+
+footer section h2 {
+  align-self: center;
+  font-size: 170%;
+  color: #161616;
+  margin-bottom: 50px;
+}
+
+footer p {
+  color: #161616;
+  margin: 0px;
+  margin-top: 50px;
+}
