@@ -76,7 +76,7 @@ main section:nth-of-type(1) img:nth-of-type(1) {
 
 .introductie {
   width: 40%;
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-left: 100px;
   z-index: 1;
 }
@@ -118,9 +118,9 @@ hr {
 }
 
 /* -----------------------SKILLS----------------------- */
-section:nth-of-type(2) h2 {
+section:nth-of-type(2) h3 {
   text-align: center;
-  font-size: 170%;
+  /* font-size: 170%; */
   color: lightgray;
 }
 
@@ -192,7 +192,7 @@ section:nth-of-type(3) article {
 
 section:nth-of-type(3) h2 {
   align-self: center;
-  font-size: 170%;
+  /* font-size: 170%; */
   color: lightgray;
 }
 
@@ -215,7 +215,7 @@ section:nth-of-type(3) img:hover, section:nth-of-type(4) img:hover {
 figcaption {
   color: lightgray;
   text-align: center;
-  font-size: 140%;
+  /* font-size: 140%; */
   margin-bottom: 100px;
 }
 
@@ -250,7 +250,7 @@ footer section {
 
 footer section h2 {
   align-self: center;
-  font-size: 170%;
+  /* font-size: 170%; */
   color: #161616;
   margin-bottom: 30px;
   margin-top: 5px;
