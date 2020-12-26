@@ -118,7 +118,7 @@ hr {
 }
 
 /* -----------------------SKILLS----------------------- */
-section:nth-of-type(2) h3 {
+section:nth-of-type(2) h2 {
   text-align: center;
   /* font-size: 170%; */
   color: lightgray;
